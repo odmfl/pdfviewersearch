@@ -1,5 +1,6 @@
 package pdfiummodule.pdfium;
 
+
 import android.graphics.RectF;
 import android.os.ParcelFileDescriptor;
 import android.util.ArrayMap;
@@ -114,4 +115,6 @@ public class PdfDocument {
     } public boolean hasText(int index) {
         return mNativeTextPtr.containsKey(index);
     }
+
+    /*package*/ final Map<Integer, Long> mNativeTextPagesPtr = new ArrayMap<>();
 }

@@ -1938,7 +1938,7 @@ public class PDFView extends RelativeLayout {
 
         private boolean swipeHorizontal = false;
 
-        private boolean annotationRendering = false;
+        private boolean annotationRendering = true;
 
         private String password = null;
 
